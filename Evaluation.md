@@ -44,3 +44,9 @@ Breve explicación:
 18. En cada paso se envía el primer kernel del dispositivo para calcular las aceleraciones de todas las partículas y el segundo kernel para calcular las velocidades y posiciones de todas las partículas.
 19. En cada paso se actualiza la energía del sistema de partículas.
 20. Al finalizar el bucle se calcula el tiempo de ejecución, los FLOPS y con ello el rendimiento promedio.
+
+## Pregunta 3: Acceder en modo interactivo a un nodo de cómputo con GPUs (gen9 o gen11)
+
+Para explicar el algoritmo de Nbody tomaremos como referencia al archivo main.cpp y GSimulation.cpp ubicados en `oneAPI-samples/tree/master/DirectProgramming/C++SYCL/N-BodyMethods/Nbody/src`.
+
+
